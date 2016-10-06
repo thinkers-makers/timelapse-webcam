@@ -31,4 +31,4 @@ Viewing
 Navigate to:
 
 http://[hostname.local]/index.php and you will see the most recent image and the file name.
-Run 'rsync-pi.sh' to remove the files from the Pi and stor them locally.
+Run 'rsync-pi.sh' to remove the files from the Pi and store them locally.
