@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rsync -avz --remove-source-files pi@akqa-gbg-webcam.local:/var/www/html/webcam/*.jpg /Users/sebastian.shaw/Documents/Egnyte/Egnyte/Private/sebastian.shaw/webcam/
+rsync -avz --remove-source-files pi@[HOSTNAME].local:/var/www/html/webcam/*.jpg /PATH/TO/LOCAL/webcam/

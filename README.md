@@ -19,13 +19,13 @@ These instructions will get the project up and running on a Raspberry Pi.
 * Get apache webserver up and running.
 * Save 'webcam.sh' to the home/Documents folder
 * Copy index.php to var/www/html
-* Ensure there is a director var/www/html/webcam and that the 'pi' user has write access
+* Ensure there is a directory var/www/html/webcam and that the 'pi' user has write access
 
 
 ### Running
 * Ensure whats in the crontab.txt file is in the crontab on the pi ('crontab -e' then paste it in.)
 * Manually run a test with ./webcam.sh at any time (on the Pi)
-* If early images at the start of the day are washed out, try using the 'warmup.sh' script and use the additional trigger in crontab.txt
+* If early images at the start of the day are washed out, try using the 'webcam-warmup.sh' script and use the additional trigger in crontab.txt
 
 Viewing
 Navigate to:
